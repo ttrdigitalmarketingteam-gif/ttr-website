@@ -11,7 +11,8 @@
     "wp:export": "node scripts/wp-export-browser.mjs",
     "migrate:wp": "NODE_USE_ENV_PROXY=1 tsx scripts/migrate-wp.ts",
     "redirects:check": "tsx scripts/check-redirects.ts",
-    "screenshots": "node scripts/screenshots.mjs"
+    "screenshots": "node scripts/screenshots.mjs",
+    "seo:check": "node scripts/seo-check.mjs"
   },
   "dependencies": {
     "@portabletext/react": "^8.0.1",

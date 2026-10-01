@@ -91,7 +91,8 @@ export default function LeadForm({ idPrefix = "lead", phone, phoneHref }: { idPr
         {status.state === "sending" ? "Sending..." : "Get my free audit"}
       </button>
       <p className="form-note">
-        By sending this form you agree that we may call, text or email you about your request. Reply STOP to opt out of texts.
+        By sending this form you agree that we may call, text or email you about your request. Reply STOP to opt out of texts. See our{" "}
+        <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms</a>.
       </p>
       <div aria-live="polite">{status.state === "error" && <p className="form-error">{status.message}</p>}</div>
     </form>

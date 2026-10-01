@@ -75,7 +75,9 @@ export default async function HomePage() {
           <div className="section-head">
             <p className="eyebrow">How we work</p>
             <h2 id="process-title">A simple process with no guesswork</h2>
-            <p className="lead">Every decision is tied to one goal: more leads that turn into paying customers.</p>
+            <p className="lead">
+              Every decision is tied to one goal: more leads that turn into paying customers. <Link href="/about">Meet the team behind TTR Digital</Link>.
+            </p>
           </div>
           <Steps steps={home.process} />
         </div>

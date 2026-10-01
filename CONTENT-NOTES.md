@@ -98,3 +98,11 @@ The site sits behind SiteGround's bot check, so plain requests get a captcha pag
 3. **Blog posts:** the 3 old posts have no real body. Should I (a) import them as-is, (b) import them and hide them from the site and sitemap until someone writes them, or (c) import them and I write a short real starter article for each? I suggest (c).
 4. **Healthcare redirect:** should /digital-marketing-services/health-care/ go to /dental-marketing or to /services?
 5. **Badges:** are Google Partner, Meta Partner and BBB still current? I'll leave out GSA and ISO unless you confirm them.
+
+## Decisions (you said "go with all you have")
+
+1. Phone: **(786) 460-1311** everywhere (header, sticky Call button, footer, schema).
+2. Hours: Monday to Friday, 9 AM to 5 PM.
+3. Blog: all 3 posts imported with their original slugs, dates and Yoast SEO fields. Their placeholder bodies were replaced with short new starter articles (no prices, nothing promised).
+4. /digital-marketing-services/health-care/ redirects to /dental-marketing.
+5. Badges shown: Google Partner, Meta Business Partner, BBB. GSA and ISO left out. All badges and client logos are editable in Sanity under Site settings.
