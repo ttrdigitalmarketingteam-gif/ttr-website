@@ -23,7 +23,7 @@ export default function Header({ settings }: { settings: Settings }) {
           ))}
         </nav>
         <div className="header-actions">
-          <a className="header-phone" href={telHref(settings.phoneE164)}>
+          <a className="header-phone" href={telHref(settings.phoneE164)} aria-label={`Call ${settings.phone}`}>
             <PhoneIcon />
             <span>{settings.phone}</span>
           </a>

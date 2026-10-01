@@ -234,7 +234,11 @@ p {
 }
 
 .header-phone {
-  display: none;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 10px;
   align-items: center;
   gap: 6px;
   font-weight: 700;
@@ -326,9 +330,26 @@ p {
   margin-top: 16px;
 }
 
+.header-phone span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.header-phone svg {
+  color: var(--purple);
+}
+
 @media (min-width: 560px) {
-  .header-phone {
-    display: inline-flex;
+  .header-phone span {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
   }
 }
 

@@ -1,5 +1,5 @@
 // GoHighLevel (LeadConnector) API v2. Keys come from the environment only.
-const GHL_BASE = "https://services.leadconnectorhq.com";
+const GHL_BASE = process.env.GHL_API_BASE || "https://services.leadconnectorhq.com";
 const GHL_VERSION = "2021-07-28";
 
 export type Lead = { name: string; phone: string; email: string; business?: string; message?: string; page?: string };
