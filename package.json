@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed": "tsx scripts/seed-sanity.ts",
+    "wp:export": "node scripts/wp-export-browser.mjs",
+    "migrate:wp": "NODE_USE_ENV_PROXY=1 tsx scripts/migrate-wp.ts",
+    "redirects:check": "tsx scripts/check-redirects.ts",
+    "screenshots": "node scripts/screenshots.mjs"
   },
   "dependencies": {
     "@portabletext/react": "^8.0.1",
